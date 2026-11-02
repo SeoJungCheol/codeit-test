@@ -8,5 +8,6 @@ if "x" not in st.session_state:
 
 if st.button("2배 증가"):
     st.session_state.x *= 2
+    
 
 st.write("현재 값:", st.session_state.x)
